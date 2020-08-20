@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{EE6AD3DA-4AC5-B7B0-BFEE-55ED6E0EC361}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_31;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="assets\Calc.cs" />
+     <Compile Include="assets\contbutton.cs" />
+     <Compile Include="assets\CubeReset.cs" />
+     <Compile Include="assets\CubesTask.cs" />
+     <Compile Include="assets\Dice\Plugins\Dice.cs" />
+     <Compile Include="assets\Dice\Plugins\Die.cs" />
+     <Compile Include="assets\Dice\Scripts\Dice\Die_d6.cs" />
+     <Compile Include="assets\FingerCollision.cs" />
+     <Compile Include="assets\FingerUsed.cs" />
+     <Compile Include="assets\HappyShufflers.cs" />
+     <Compile Include="assets\IPQ.cs" />
+     <Compile Include="assets\KeyboardTask.cs" />
+     <Compile Include="assets\LastActiveButton.cs" />
+     <Compile Include="assets\LastActiveHandler.cs" />
+     <Compile Include="assets\LatinHand.cs" />
+     <Compile Include="assets\leapmotion\core\Examples\Example Assets\InertiaPostProcessProvider.cs" />
+     <Compile Include="assets\leapmotion\core\Examples\Example Assets\ProjectionPostProcessProvider.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Arm.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Bone.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\CircularObjectBuffer.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Config.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Connection.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Controller.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\CopyFromLeapCExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\CopyFromOtherExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\CSharpExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Device.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\DeviceList.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\DistortionData.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Events.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\FailedDevice.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\FailedDeviceList.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Finger.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Frame.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Hand.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\IController.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Image.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\ImageData.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\LeapC.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\LeapQuaternion.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\LeapTransform.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Logger.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Matrix.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\MemoryManager.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\MessageSeverity.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\PointMapping.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\StructMarshal.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\TransformExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\plugins\LeapCSharp\Vector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Algorithms\SlidingMax.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Algorithms\SmoothedFloat.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Algorithms\SmoothedQuaternion.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Algorithms\SmoothedVector3.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\CubicHermiteSpline\HermiteSpline.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\CubicHermiteSpline\HermiteSpline2.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\CubicHermiteSpline\HermiteSpline3.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\Ease.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\IValueProxy.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\TransformTweenBehaviour.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Enums.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\IInterpolator.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Internal\Interpolators\InterpolatorBases.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Internal\Interpolators\MaterialInterpolators.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Internal\Interpolators\TransformInterpolators.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Internal\Interpolators\ValueInterpolators.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Internal\TweenInstance.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Internal\TweenRunner.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\animation\tween\Tween.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attachments\AttachmentHand.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attachments\AttachmentHandEnableDisable.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attachments\AttachmentHands.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attachments\AttachmentPointBehaviour.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attachments\AttachmentPointFlags.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\AutoFind.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\CombinablePropertyAttribute.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\CurveBounds.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\Disable.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\DisableIf.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\EditTimeOnly.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\EnumFlags.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\ImplementsInterface.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\ImplementsTypeNameDropdown.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\Incrementable.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\InspectorName.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\MaxValue.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\MinMax.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\MinValue.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\OnEditorChange.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\QuickButton.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\RunTimeOnly.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Attributes\Units.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\AssetFolder.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\DelayBuffer.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\DeltaBuffer.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Deque.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Either.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Hash.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\IIndexable.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\IIndexableStruct.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Maybe.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\MinHeap.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\MultiTypedList.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\MultiTypedReference.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Pool.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Pose.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\ProduceConsumeBuffer.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\ReadonlyHashSet.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\ReadonlyList.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\ReadonlySlice.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\RingBuffer.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\SerializableDictionary.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\SerializableHashSet.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\SerializableType.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Slice.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\StreamingAsset.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\StreamingFolder.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DataStructures\Type.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\AbstractHoldDetector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\Detector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\DetectorLogicGate.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\ExtendedFingerDetector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\FingerDirectionDetector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\PalmDirectionDetector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\PinchDetector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\DetectionUtilities\ProximityDetector.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\EditorTools\LeapPreferences.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\EditorTools\LeapProjectChecks.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Encoding\VectorHand.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\HandModelManager.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\HandRepresentation.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\CapsuleHand.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\DebugHand.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\FingerModel.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\HandDrop.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\HandEnableDisable.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\HandModel.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\HandModelBase.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\HandTransitionBehavior.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\RiggedFinger.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\RiggedHand.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\RigidFinger.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\RigidHand.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\SkeletalFinger.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\SkeletalHand.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Hands\TestHandFactory.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\LeapImageRetriever.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\LeapProfiling.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\LeapProvider.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\LeapServiceProvider.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\LeapTestProvider.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\LeapXRServiceProvider.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Query\Query.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Query\QueryCollapseExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Query\QueryOperatorExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Query\QueryValueGenerators.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Space\Definitions\LeapCylindricalSpace.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Space\Definitions\LeapRadialSpace.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Space\Definitions\LeapSphericalSpace.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Space\ISpaceComponent.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Space\ITransformer.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Space\LeapSpace.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Space\LeapSpaceAnchor.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Testing\LeapTestBase.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Testing\StationaryTestLeapProvider.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\AnimationCurveUtil.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\ArrayPool.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\AssertHelper.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\BitConverterNonAlloc.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\Comment.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\ConnectionMonitor.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\DisconnectionNotice.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\EditorResources.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\EnableDepthBuffer.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\Enum.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\EnumEventTable.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\ExecutionOrder.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\FpsLabel.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\FrameRateControls.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\GuiRectUtil.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\HandUtils.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\Infix.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\InternalUtility.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\KeyEnableBehaviors.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\KeyEnableGameObjects.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\LeapColor.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\LeapUnityExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\ListAndArrayExtensions.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\PostProcessProvider.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\ProfilerSample.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\ProgressBar.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\RuntimeColliderGizmos.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\RuntimeGizmoManager.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\RuntimeGizmoToggle.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\SingleLayer.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\Swizzle.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\TransformHistory.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\TransformUtil.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\Utils.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\Utils\XRSupportUtil.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\XR\LeapEyeDislocator.cs" />
+     <Compile Include="assets\leapmotion\core\scripts\XR\XRHeightOffset.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Examples\Scripts\ExampleArrayController.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\EditTimeApis\LeapGraphicEditorApi.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\EditTimeApis\LeapGraphicGroupEditorApi.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\EditTimeApis\LeapGraphicRendererEditorApi.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\EditTimeApis\LeapMeshGraphicEditorApi.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\BlendShape\LeapBlendShapeData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\BlendShape\LeapBlendShapeFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomColorChannelData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomColorChannelFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomFloatChannelData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomFloatChannelFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomMatrixChannelData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomMatrixChannelFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomVectorChannelData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\Channels\CustomVectorChannelFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\CustomChannelDataBase.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\CustomChannel\CustomChannelFeatureBase.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\Sprite\LeapSpriteData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\Sprite\LeapSpriteFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\Texture\LeapTextureData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\Texture\LeapTextureFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\tint\LeapRuntimeTintData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\features\tint\LeapRuntimeTintFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\graphics\LeapMeshGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\graphics\LeapTextGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\graphics\proceduralmeshgraphics\Abstract\LeapSlicedGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\graphics\proceduralmeshgraphics\LeapBoxGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\graphics\proceduralmeshgraphics\LeapPanelGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\graphics\proceduralmeshgraphics\LeapPanelOutlineGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\graphics\proceduralmeshgraphics\LeapSpriteGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\ISupportsAddRemove.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\ISupportsFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\LeapGraphic.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\LeapGraphicFeature.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\LeapGraphicGroup.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\LeapGraphicRenderer.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\LeapRenderingMethod.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\RenderingMethods\AssetData\RendererMeshData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\RenderingMethods\AssetData\RendererTextureData.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\RenderingMethods\LeapBakedRenderer.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\RenderingMethods\LeapDynamicRenderer.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\RenderingMethods\LeapMesherBase.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\RenderingMethods\LeapTextRenderer.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\SpaceProperties.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\SupportInfo.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\AtlasBuilder.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\JaggedArray.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\LeapGraphicTagAttribute.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\MaterialUtil.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\MeshCache.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\MeshUtil.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\SpriteUtil.cs" />
+     <Compile Include="assets\leapmotion\modules\graphicrenderer\Scripts\Utility\TextWrapper.cs" />
+     <Compile Include="assets\leapmotion\modules\hands\Examples\Scripts\CenterTransformOnCam.cs" />
+     <Compile Include="assets\leapmotion\modules\hands\Examples\Scripts\CycleHandPairs.cs" />
+     <Compile Include="assets\leapmotion\modules\hands\scripts\LeapHandsAutoRig.cs" />
+     <Compile Include="assets\leapmotion\modules\hands\scripts\MinimalHand.cs" />
+     <Compile Include="assets\leapmotion\modules\hands\scripts\PolyFinger.cs" />
+     <Compile Include="assets\leapmotion\modules\hands\scripts\PolyHand.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\2. Basic UI\MovePoseExample.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\3. interaction callbacks\Scripts\TransformHandle.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\3. interaction callbacks\Scripts\TransformRotationHandle.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\3. interaction callbacks\Scripts\TransformTool.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\3. interaction callbacks\Scripts\TransformTranslationHandle.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\5. anchors\SimpleAnchorFeedback.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\6. dynamic ui\scripts\SimpleMatchAnchorScaleAndState.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\6. dynamic ui\scripts\WorkstationBehaviourExample.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\6. dynamic ui\Tests\Scripts\RenderWireSphere.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\6. dynamic ui\Tests\Scripts\WorkstationPoseTest.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\7. moving reference frames\Scripts\AngularSpeedTextBehaviour.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\7. moving reference frames\Scripts\AutopilotSystem.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\7. moving reference frames\Scripts\LinearReferenceSpawner.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\7. moving reference frames\Scripts\LinearSpeedTextBehaviour.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\7. moving reference frames\Scripts\Spaceship.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\8. Swap Grasp\Scripts\SwapGraspExample.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\common example assets\Scripts\SimpleFacingCameraCallbacks.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\common example assets\Scripts\SimpleInteractionEmission.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\common example assets\Scripts\SimpleInteractionGlow.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\common example assets\Scripts\SimpleRendererUtil.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\common example assets\Scripts\SimpleScaleUtil.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\examples\common example assets\Scripts\SimpleTransformUtil.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\InteractionBehaviour.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\InteractionController.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\InteractionHand.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\InteractionManager.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\InteractionXRController.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\ContactBone.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\ContactBoneParent.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\DefaultXRNodeTrackingProvider.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\HeuristicGrabClassifier.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\Interface\IGraspedMovementHandler.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\Interface\IGraspedPoseHandler.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\Interface\IInteractionBehaviour.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\Interface\IInternalInteractionController.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\Interface\IInternalInteractionManager.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\Interface\IThrowHandler.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\IXRControllerTrackingProvider.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\KabschGraspedPose.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\KinematicGraspedMovement.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\NonKinematicGraspedMovement.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Internal\SlidingWindowThrow.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\ui\anchors\Anchor.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\ui\anchors\AnchorableBehaviour.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\ui\anchors\AnchorGroup.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\ui\anchors\Tests\AnchorScoreTest.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\ui\InteractionButton.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\ui\InteractionSlider.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\ui\InteractionToggle.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\ActivityManager.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\Extensions.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\GraspedMovementEvent.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\HideInteractionHandWhenControllerMoving.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\IgnoreColliderForInteraction.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\IgnoreCollisionsInChildren.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\KabschSolver.cs" />
+     <Compile Include="assets\leapmotion\modules\interactionengine\Scripts\Utility\PhysicsCallbacks.cs" />
+     <Compile Include="assets\LikertButton.cs" />
+     <Compile Include="assets\MyGameManager.cs" />
+     <Compile Include="assets\QuestionaireTask.cs" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Resources\GraphicRenderer.cginc" />
+     <None Include="assets\Dice\-Read-Me-.txt" />
+     <None Include="assets\leapmotion\core\Resources\LeapCG.cginc" />
+     <None Include="assets\leapmotion\core\README_BEFORE_UPDATING.txt" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Resources\InternalPackShader.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Resources\BakedRenderer.cginc" />
+     <None Include="assets\leapmotion\core\readme.txt" />
+     <None Include="assets\leapmotion\core\Shaders\RuntimeGizmos.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Shaders\BakedSurface.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Shaders\DynamicSurfaceTransparent.shader" />
+     <None Include="assets\GUI3DText.shader" />
+     <None Include="assets\leapmotion\core\Dependencies.txt" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Resources\DynamicRenderer.cginc" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Resources\CylindricalSpace.cginc" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Shaders\DynamicSurface.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Shaders\DynamicUnlit.shader" />
+     <None Include="assets\leapmotion\core\Shaders\ThresholdOverlay.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Shaders\BakedUnlit.shader" />
+     <None Include="assets\leapmotion\core\Shaders\PassthroughForeground.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Resources\SphericalSpace.cginc" />
+     <None Include="assets\leapmotion\core\Shaders\PassthroughBackground.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Examples\Shaders\Dynamic_SurfaceExample1.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Examples\Shaders\Baked_SurfaceExample1.shader" />
+     <None Include="assets\Tim&apos;s Assets\Doors\Shader\BloodyDoor.shader" />
+     <None Include="assets\leapmotion\core\Version.txt" />
+     <None Include="assets\leapmotion\core\Shaders\VertexOffsetShader.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Shaders\DynamicUnlitTransparent.shader" />
+     <None Include="assets\leapmotion\modules\graphicrenderer\Shaders\DynamicText.shader" />
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WebModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="InteractionEngineUtility">
+ <HintPath>C:/Users/Vali/Dropbox/Projects/LessFingersStudy2/LeapUnityProjectAktuell/LeapUnityProjectBackup/Assets/leapmotion/modules/interactionengine/Plugins/InteractionEngineUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/Vali/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/Vali/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/Vali/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/Vali/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

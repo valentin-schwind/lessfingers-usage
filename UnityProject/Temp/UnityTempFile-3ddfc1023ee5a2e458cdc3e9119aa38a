@@ -1,0 +1,487 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:6
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.4.0f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:Assets/leapmotion/modules/interactionengine/Plugins/InteractionEngineUtility.dll
+-r:C:/Users/Vali/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2017_4_31
+-define:UNITY_2017_4
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+assets/Calc.cs
+assets/contbutton.cs
+assets/CubeReset.cs
+assets/CubesTask.cs
+assets/Dice/Plugins/Dice.cs
+assets/Dice/Plugins/Die.cs
+assets/Dice/Scripts/Dice/Die_d6.cs
+assets/FingerCollision.cs
+assets/FingerUsed.cs
+assets/HappyShufflers.cs
+assets/IPQ.cs
+assets/KeyboardTask.cs
+assets/LastActiveButton.cs
+assets/LastActiveHandler.cs
+assets/LatinHand.cs
+"assets/leapmotion/core/Examples/Example Assets/InertiaPostProcessProvider.cs"
+"assets/leapmotion/core/Examples/Example Assets/ProjectionPostProcessProvider.cs"
+assets/leapmotion/core/plugins/LeapCSharp/Arm.cs
+assets/leapmotion/core/plugins/LeapCSharp/Bone.cs
+assets/leapmotion/core/plugins/LeapCSharp/CircularObjectBuffer.cs
+assets/leapmotion/core/plugins/LeapCSharp/Config.cs
+assets/leapmotion/core/plugins/LeapCSharp/Connection.cs
+assets/leapmotion/core/plugins/LeapCSharp/Controller.cs
+assets/leapmotion/core/plugins/LeapCSharp/CopyFromLeapCExtensions.cs
+assets/leapmotion/core/plugins/LeapCSharp/CopyFromOtherExtensions.cs
+assets/leapmotion/core/plugins/LeapCSharp/CSharpExtensions.cs
+assets/leapmotion/core/plugins/LeapCSharp/Device.cs
+assets/leapmotion/core/plugins/LeapCSharp/DeviceList.cs
+assets/leapmotion/core/plugins/LeapCSharp/DistortionData.cs
+assets/leapmotion/core/plugins/LeapCSharp/Events.cs
+assets/leapmotion/core/plugins/LeapCSharp/FailedDevice.cs
+assets/leapmotion/core/plugins/LeapCSharp/FailedDeviceList.cs
+assets/leapmotion/core/plugins/LeapCSharp/Finger.cs
+assets/leapmotion/core/plugins/LeapCSharp/Frame.cs
+assets/leapmotion/core/plugins/LeapCSharp/Hand.cs
+assets/leapmotion/core/plugins/LeapCSharp/IController.cs
+assets/leapmotion/core/plugins/LeapCSharp/Image.cs
+assets/leapmotion/core/plugins/LeapCSharp/ImageData.cs
+assets/leapmotion/core/plugins/LeapCSharp/LeapC.cs
+assets/leapmotion/core/plugins/LeapCSharp/LeapQuaternion.cs
+assets/leapmotion/core/plugins/LeapCSharp/LeapTransform.cs
+assets/leapmotion/core/plugins/LeapCSharp/Logger.cs
+assets/leapmotion/core/plugins/LeapCSharp/Matrix.cs
+assets/leapmotion/core/plugins/LeapCSharp/MemoryManager.cs
+assets/leapmotion/core/plugins/LeapCSharp/MessageSeverity.cs
+assets/leapmotion/core/plugins/LeapCSharp/PointMapping.cs
+assets/leapmotion/core/plugins/LeapCSharp/StructMarshal.cs
+assets/leapmotion/core/plugins/LeapCSharp/TransformExtensions.cs
+assets/leapmotion/core/plugins/LeapCSharp/Vector.cs
+assets/leapmotion/core/scripts/Algorithms/SlidingMax.cs
+assets/leapmotion/core/scripts/Algorithms/SmoothedFloat.cs
+assets/leapmotion/core/scripts/Algorithms/SmoothedQuaternion.cs
+assets/leapmotion/core/scripts/Algorithms/SmoothedVector3.cs
+assets/leapmotion/core/scripts/animation/CubicHermiteSpline/HermiteSpline.cs
+assets/leapmotion/core/scripts/animation/CubicHermiteSpline/HermiteSpline2.cs
+assets/leapmotion/core/scripts/animation/CubicHermiteSpline/HermiteSpline3.cs
+assets/leapmotion/core/scripts/animation/Ease.cs
+assets/leapmotion/core/scripts/animation/IValueProxy.cs
+assets/leapmotion/core/scripts/animation/TransformTweenBehaviour.cs
+assets/leapmotion/core/scripts/animation/tween/Enums.cs
+assets/leapmotion/core/scripts/animation/tween/IInterpolator.cs
+assets/leapmotion/core/scripts/animation/tween/Internal/Interpolators/InterpolatorBases.cs
+assets/leapmotion/core/scripts/animation/tween/Internal/Interpolators/MaterialInterpolators.cs
+assets/leapmotion/core/scripts/animation/tween/Internal/Interpolators/TransformInterpolators.cs
+assets/leapmotion/core/scripts/animation/tween/Internal/Interpolators/ValueInterpolators.cs
+assets/leapmotion/core/scripts/animation/tween/Internal/TweenInstance.cs
+assets/leapmotion/core/scripts/animation/tween/Internal/TweenRunner.cs
+assets/leapmotion/core/scripts/animation/tween/Tween.cs
+assets/leapmotion/core/scripts/Attachments/AttachmentHand.cs
+assets/leapmotion/core/scripts/Attachments/AttachmentHandEnableDisable.cs
+assets/leapmotion/core/scripts/Attachments/AttachmentHands.cs
+assets/leapmotion/core/scripts/Attachments/AttachmentPointBehaviour.cs
+assets/leapmotion/core/scripts/Attachments/AttachmentPointFlags.cs
+assets/leapmotion/core/scripts/Attributes/AutoFind.cs
+assets/leapmotion/core/scripts/Attributes/CombinablePropertyAttribute.cs
+assets/leapmotion/core/scripts/Attributes/CurveBounds.cs
+assets/leapmotion/core/scripts/Attributes/Disable.cs
+assets/leapmotion/core/scripts/Attributes/DisableIf.cs
+assets/leapmotion/core/scripts/Attributes/EditTimeOnly.cs
+assets/leapmotion/core/scripts/Attributes/EnumFlags.cs
+assets/leapmotion/core/scripts/Attributes/ImplementsInterface.cs
+assets/leapmotion/core/scripts/Attributes/ImplementsTypeNameDropdown.cs
+assets/leapmotion/core/scripts/Attributes/Incrementable.cs
+assets/leapmotion/core/scripts/Attributes/InspectorName.cs
+assets/leapmotion/core/scripts/Attributes/MaxValue.cs
+assets/leapmotion/core/scripts/Attributes/MinMax.cs
+assets/leapmotion/core/scripts/Attributes/MinValue.cs
+assets/leapmotion/core/scripts/Attributes/OnEditorChange.cs
+assets/leapmotion/core/scripts/Attributes/QuickButton.cs
+assets/leapmotion/core/scripts/Attributes/RunTimeOnly.cs
+assets/leapmotion/core/scripts/Attributes/Units.cs
+assets/leapmotion/core/scripts/DataStructures/AssetFolder.cs
+assets/leapmotion/core/scripts/DataStructures/DelayBuffer.cs
+assets/leapmotion/core/scripts/DataStructures/DeltaBuffer.cs
+assets/leapmotion/core/scripts/DataStructures/Deque.cs
+assets/leapmotion/core/scripts/DataStructures/Either.cs
+assets/leapmotion/core/scripts/DataStructures/Hash.cs
+assets/leapmotion/core/scripts/DataStructures/IIndexable.cs
+assets/leapmotion/core/scripts/DataStructures/IIndexableStruct.cs
+assets/leapmotion/core/scripts/DataStructures/Maybe.cs
+assets/leapmotion/core/scripts/DataStructures/MinHeap.cs
+assets/leapmotion/core/scripts/DataStructures/MultiTypedList.cs
+assets/leapmotion/core/scripts/DataStructures/MultiTypedReference.cs
+assets/leapmotion/core/scripts/DataStructures/Pool.cs
+assets/leapmotion/core/scripts/DataStructures/Pose.cs
+assets/leapmotion/core/scripts/DataStructures/ProduceConsumeBuffer.cs
+assets/leapmotion/core/scripts/DataStructures/ReadonlyHashSet.cs
+assets/leapmotion/core/scripts/DataStructures/ReadonlyList.cs
+assets/leapmotion/core/scripts/DataStructures/ReadonlySlice.cs
+assets/leapmotion/core/scripts/DataStructures/RingBuffer.cs
+assets/leapmotion/core/scripts/DataStructures/SerializableDictionary.cs
+assets/leapmotion/core/scripts/DataStructures/SerializableHashSet.cs
+assets/leapmotion/core/scripts/DataStructures/SerializableType.cs
+assets/leapmotion/core/scripts/DataStructures/Slice.cs
+assets/leapmotion/core/scripts/DataStructures/StreamingAsset.cs
+assets/leapmotion/core/scripts/DataStructures/StreamingFolder.cs
+assets/leapmotion/core/scripts/DataStructures/Type.cs
+assets/leapmotion/core/scripts/DetectionUtilities/AbstractHoldDetector.cs
+assets/leapmotion/core/scripts/DetectionUtilities/Detector.cs
+assets/leapmotion/core/scripts/DetectionUtilities/DetectorLogicGate.cs
+assets/leapmotion/core/scripts/DetectionUtilities/ExtendedFingerDetector.cs
+assets/leapmotion/core/scripts/DetectionUtilities/FingerDirectionDetector.cs
+assets/leapmotion/core/scripts/DetectionUtilities/PalmDirectionDetector.cs
+assets/leapmotion/core/scripts/DetectionUtilities/PinchDetector.cs
+assets/leapmotion/core/scripts/DetectionUtilities/ProximityDetector.cs
+assets/leapmotion/core/scripts/EditorTools/LeapPreferences.cs
+assets/leapmotion/core/scripts/EditorTools/LeapProjectChecks.cs
+assets/leapmotion/core/scripts/Encoding/VectorHand.cs
+assets/leapmotion/core/scripts/HandModelManager.cs
+assets/leapmotion/core/scripts/HandRepresentation.cs
+assets/leapmotion/core/scripts/Hands/CapsuleHand.cs
+assets/leapmotion/core/scripts/Hands/DebugHand.cs
+assets/leapmotion/core/scripts/Hands/FingerModel.cs
+assets/leapmotion/core/scripts/Hands/HandDrop.cs
+assets/leapmotion/core/scripts/Hands/HandEnableDisable.cs
+assets/leapmotion/core/scripts/Hands/HandModel.cs
+assets/leapmotion/core/scripts/Hands/HandModelBase.cs
+assets/leapmotion/core/scripts/Hands/HandTransitionBehavior.cs
+assets/leapmotion/core/scripts/Hands/RiggedFinger.cs
+assets/leapmotion/core/scripts/Hands/RiggedHand.cs
+assets/leapmotion/core/scripts/Hands/RigidFinger.cs
+assets/leapmotion/core/scripts/Hands/RigidHand.cs
+assets/leapmotion/core/scripts/Hands/SkeletalFinger.cs
+assets/leapmotion/core/scripts/Hands/SkeletalHand.cs
+assets/leapmotion/core/scripts/Hands/TestHandFactory.cs
+assets/leapmotion/core/scripts/LeapImageRetriever.cs
+assets/leapmotion/core/scripts/LeapProfiling.cs
+assets/leapmotion/core/scripts/LeapProvider.cs
+assets/leapmotion/core/scripts/LeapServiceProvider.cs
+assets/leapmotion/core/scripts/LeapTestProvider.cs
+assets/leapmotion/core/scripts/LeapXRServiceProvider.cs
+assets/leapmotion/core/scripts/Query/Query.cs
+assets/leapmotion/core/scripts/Query/QueryCollapseExtensions.cs
+assets/leapmotion/core/scripts/Query/QueryOperatorExtensions.cs
+assets/leapmotion/core/scripts/Query/QueryValueGenerators.cs
+assets/leapmotion/core/scripts/Space/Definitions/LeapCylindricalSpace.cs
+assets/leapmotion/core/scripts/Space/Definitions/LeapRadialSpace.cs
+assets/leapmotion/core/scripts/Space/Definitions/LeapSphericalSpace.cs
+assets/leapmotion/core/scripts/Space/ISpaceComponent.cs
+assets/leapmotion/core/scripts/Space/ITransformer.cs
+assets/leapmotion/core/scripts/Space/LeapSpace.cs
+assets/leapmotion/core/scripts/Space/LeapSpaceAnchor.cs
+assets/leapmotion/core/scripts/Testing/LeapTestBase.cs
+assets/leapmotion/core/scripts/Testing/StationaryTestLeapProvider.cs
+assets/leapmotion/core/scripts/Utils/AnimationCurveUtil.cs
+assets/leapmotion/core/scripts/Utils/ArrayPool.cs
+assets/leapmotion/core/scripts/Utils/AssertHelper.cs
+assets/leapmotion/core/scripts/Utils/BitConverterNonAlloc.cs
+assets/leapmotion/core/scripts/Utils/Comment.cs
+assets/leapmotion/core/scripts/Utils/ConnectionMonitor.cs
+assets/leapmotion/core/scripts/Utils/DisconnectionNotice.cs
+assets/leapmotion/core/scripts/Utils/EditorResources.cs
+assets/leapmotion/core/scripts/Utils/EnableDepthBuffer.cs
+assets/leapmotion/core/scripts/Utils/Enum.cs
+assets/leapmotion/core/scripts/Utils/EnumEventTable.cs
+assets/leapmotion/core/scripts/Utils/ExecutionOrder.cs
+assets/leapmotion/core/scripts/Utils/FpsLabel.cs
+assets/leapmotion/core/scripts/Utils/FrameRateControls.cs
+assets/leapmotion/core/scripts/Utils/GuiRectUtil.cs
+assets/leapmotion/core/scripts/Utils/HandUtils.cs
+assets/leapmotion/core/scripts/Utils/Infix.cs
+assets/leapmotion/core/scripts/Utils/InternalUtility.cs
+assets/leapmotion/core/scripts/Utils/KeyEnableBehaviors.cs
+assets/leapmotion/core/scripts/Utils/KeyEnableGameObjects.cs
+assets/leapmotion/core/scripts/Utils/LeapColor.cs
+assets/leapmotion/core/scripts/Utils/LeapUnityExtensions.cs
+assets/leapmotion/core/scripts/Utils/ListAndArrayExtensions.cs
+assets/leapmotion/core/scripts/Utils/PostProcessProvider.cs
+assets/leapmotion/core/scripts/Utils/ProfilerSample.cs
+assets/leapmotion/core/scripts/Utils/ProgressBar.cs
+assets/leapmotion/core/scripts/Utils/RuntimeColliderGizmos.cs
+assets/leapmotion/core/scripts/Utils/RuntimeGizmoManager.cs
+assets/leapmotion/core/scripts/Utils/RuntimeGizmoToggle.cs
+assets/leapmotion/core/scripts/Utils/SingleLayer.cs
+assets/leapmotion/core/scripts/Utils/Swizzle.cs
+assets/leapmotion/core/scripts/Utils/TransformHistory.cs
+assets/leapmotion/core/scripts/Utils/TransformUtil.cs
+assets/leapmotion/core/scripts/Utils/Utils.cs
+assets/leapmotion/core/scripts/Utils/XRSupportUtil.cs
+assets/leapmotion/core/scripts/XR/LeapEyeDislocator.cs
+assets/leapmotion/core/scripts/XR/XRHeightOffset.cs
+assets/leapmotion/modules/graphicrenderer/Examples/Scripts/ExampleArrayController.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/EditTimeApis/LeapGraphicEditorApi.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/EditTimeApis/LeapGraphicGroupEditorApi.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/EditTimeApis/LeapGraphicRendererEditorApi.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/EditTimeApis/LeapMeshGraphicEditorApi.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/BlendShape/LeapBlendShapeData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/BlendShape/LeapBlendShapeFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomColorChannelData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomColorChannelFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomFloatChannelData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomFloatChannelFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomMatrixChannelData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomMatrixChannelFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomVectorChannelData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/Channels/CustomVectorChannelFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/CustomChannelDataBase.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/CustomChannel/CustomChannelFeatureBase.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/Sprite/LeapSpriteData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/Sprite/LeapSpriteFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/Texture/LeapTextureData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/Texture/LeapTextureFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/tint/LeapRuntimeTintData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/features/tint/LeapRuntimeTintFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/graphics/LeapMeshGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/graphics/LeapTextGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/graphics/proceduralmeshgraphics/Abstract/LeapSlicedGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/graphics/proceduralmeshgraphics/LeapBoxGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/graphics/proceduralmeshgraphics/LeapPanelGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/graphics/proceduralmeshgraphics/LeapPanelOutlineGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/graphics/proceduralmeshgraphics/LeapSpriteGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/ISupportsAddRemove.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/ISupportsFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/LeapGraphic.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/LeapGraphicFeature.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/LeapGraphicGroup.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/LeapGraphicRenderer.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/LeapRenderingMethod.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/RenderingMethods/AssetData/RendererMeshData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/RenderingMethods/AssetData/RendererTextureData.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/RenderingMethods/LeapBakedRenderer.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/RenderingMethods/LeapDynamicRenderer.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/RenderingMethods/LeapMesherBase.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/RenderingMethods/LeapTextRenderer.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/SpaceProperties.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/SupportInfo.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/AtlasBuilder.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/JaggedArray.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/LeapGraphicTagAttribute.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/MaterialUtil.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/MeshCache.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/MeshUtil.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/SpriteUtil.cs
+assets/leapmotion/modules/graphicrenderer/Scripts/Utility/TextWrapper.cs
+assets/leapmotion/modules/hands/Examples/Scripts/CenterTransformOnCam.cs
+assets/leapmotion/modules/hands/Examples/Scripts/CycleHandPairs.cs
+assets/leapmotion/modules/hands/scripts/LeapHandsAutoRig.cs
+assets/leapmotion/modules/hands/scripts/MinimalHand.cs
+assets/leapmotion/modules/hands/scripts/PolyFinger.cs
+assets/leapmotion/modules/hands/scripts/PolyHand.cs
+"assets/leapmotion/modules/interactionengine/examples/2. Basic UI/MovePoseExample.cs"
+"assets/leapmotion/modules/interactionengine/examples/3. interaction callbacks/Scripts/TransformHandle.cs"
+"assets/leapmotion/modules/interactionengine/examples/3. interaction callbacks/Scripts/TransformRotationHandle.cs"
+"assets/leapmotion/modules/interactionengine/examples/3. interaction callbacks/Scripts/TransformTool.cs"
+"assets/leapmotion/modules/interactionengine/examples/3. interaction callbacks/Scripts/TransformTranslationHandle.cs"
+"assets/leapmotion/modules/interactionengine/examples/5. anchors/SimpleAnchorFeedback.cs"
+"assets/leapmotion/modules/interactionengine/examples/6. dynamic ui/scripts/SimpleMatchAnchorScaleAndState.cs"
+"assets/leapmotion/modules/interactionengine/examples/6. dynamic ui/scripts/WorkstationBehaviourExample.cs"
+"assets/leapmotion/modules/interactionengine/examples/6. dynamic ui/Tests/Scripts/RenderWireSphere.cs"
+"assets/leapmotion/modules/interactionengine/examples/6. dynamic ui/Tests/Scripts/WorkstationPoseTest.cs"
+"assets/leapmotion/modules/interactionengine/examples/7. moving reference frames/Scripts/AngularSpeedTextBehaviour.cs"
+"assets/leapmotion/modules/interactionengine/examples/7. moving reference frames/Scripts/AutopilotSystem.cs"
+"assets/leapmotion/modules/interactionengine/examples/7. moving reference frames/Scripts/LinearReferenceSpawner.cs"
+"assets/leapmotion/modules/interactionengine/examples/7. moving reference frames/Scripts/LinearSpeedTextBehaviour.cs"
+"assets/leapmotion/modules/interactionengine/examples/7. moving reference frames/Scripts/Spaceship.cs"
+"assets/leapmotion/modules/interactionengine/examples/8. Swap Grasp/Scripts/SwapGraspExample.cs"
+"assets/leapmotion/modules/interactionengine/examples/common example assets/Scripts/SimpleFacingCameraCallbacks.cs"
+"assets/leapmotion/modules/interactionengine/examples/common example assets/Scripts/SimpleInteractionEmission.cs"
+"assets/leapmotion/modules/interactionengine/examples/common example assets/Scripts/SimpleInteractionGlow.cs"
+"assets/leapmotion/modules/interactionengine/examples/common example assets/Scripts/SimpleRendererUtil.cs"
+"assets/leapmotion/modules/interactionengine/examples/common example assets/Scripts/SimpleScaleUtil.cs"
+"assets/leapmotion/modules/interactionengine/examples/common example assets/Scripts/SimpleTransformUtil.cs"
+assets/leapmotion/modules/interactionengine/Scripts/InteractionBehaviour.cs
+assets/leapmotion/modules/interactionengine/Scripts/InteractionController.cs
+assets/leapmotion/modules/interactionengine/Scripts/InteractionHand.cs
+assets/leapmotion/modules/interactionengine/Scripts/InteractionManager.cs
+assets/leapmotion/modules/interactionengine/Scripts/InteractionXRController.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/ContactBone.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/ContactBoneParent.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/DefaultXRNodeTrackingProvider.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/HeuristicGrabClassifier.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/Interface/IGraspedMovementHandler.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/Interface/IGraspedPoseHandler.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/Interface/IInteractionBehaviour.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/Interface/IInternalInteractionController.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/Interface/IInternalInteractionManager.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/Interface/IThrowHandler.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/IXRControllerTrackingProvider.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/KabschGraspedPose.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/KinematicGraspedMovement.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/NonKinematicGraspedMovement.cs
+assets/leapmotion/modules/interactionengine/Scripts/Internal/SlidingWindowThrow.cs
+assets/leapmotion/modules/interactionengine/Scripts/ui/anchors/Anchor.cs
+assets/leapmotion/modules/interactionengine/Scripts/ui/anchors/AnchorableBehaviour.cs
+assets/leapmotion/modules/interactionengine/Scripts/ui/anchors/AnchorGroup.cs
+assets/leapmotion/modules/interactionengine/Scripts/ui/anchors/Tests/AnchorScoreTest.cs
+assets/leapmotion/modules/interactionengine/Scripts/ui/InteractionButton.cs
+assets/leapmotion/modules/interactionengine/Scripts/ui/InteractionSlider.cs
+assets/leapmotion/modules/interactionengine/Scripts/ui/InteractionToggle.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/ActivityManager.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/Extensions.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/GraspedMovementEvent.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/HideInteractionHandWhenControllerMoving.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/IgnoreColliderForInteraction.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/IgnoreCollisionsInChildren.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/KabschSolver.cs
+assets/leapmotion/modules/interactionengine/Scripts/Utility/PhysicsCallbacks.cs
+assets/LikertButton.cs
+assets/MyGameManager.cs
+assets/QuestionaireTask.cs
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.4.0f1\Editor\Data\MonoBleedingEdge\lib\mono\4.5\Boo.Lang.dll"
+-sdk:4.6
